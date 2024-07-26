@@ -1,0 +1,26 @@
+body {
+  background-color: #013950;
+}
+
+.task-form{
+  background-color: #012839;
+}
+
+.task {
+  background-color: #009788;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover{
+    width: 80% !important;
+  }
+}
+
+.task i{
+  padding: 10px;
+  font-size: 20px;
+
+  &:hover{
+    color: #012839;
+  }
+}
